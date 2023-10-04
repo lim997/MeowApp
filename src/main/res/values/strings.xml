@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">냥이야 뭐해</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_item_adapter">ItemAdapter</string>
+    <string name="title_activity_ex">ExActivity</string>
+</resources>
