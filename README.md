@@ -21,6 +21,7 @@
 
 
 # 프로젝트 일정
+
  - 2019.03 ~ 2019.11
  - 매주 월요일 13시 회의
 
@@ -88,7 +89,71 @@
 
 
 
-# 관련료
+# 관련 기능
+
+1. Fragment
+ - 화면을 전환하지 않고, 화면의 일부분을 다른 화면으로 구성하기 위해 사용.
+ - 액티비티에 올라가는 시점에 동작됨.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/fragment.png"/>
+
+
+2. AsyncTask
+ - Thread의 사용 대신, UI상에서 간단하게 비동기 작업을 수행할 수 있도록 사용.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/asyncTask.png"/>
+
+3. URL 통신
+ - URL, URLConnection 클래스 이용.
+ - 애플리케이션에서 서버로 데이터를 전송
+
+4. RecyclerView
+ - 리스트를 효율적으로 표시.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/recyclerView.png"/>
+
+5. SQLite
+
+
+
+# 화면 구현
+
+1. 메인 화면
+  - 파일의 액세스 권한이 허용되면 사용자의 갤러리에서 사진을 받아올 수 있으며, 이미지 파일의 경로를 담을 데이터베이스가 생성됨.
+  - SQLite 이용. 애플리케이션을 재실행하더라도 선택한 이미지가 메인에 나타남.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/gallery01.png"/>
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/gallery02.png"/>
+
+2. 배식 시간 설정
+  - 리스트를 이용. 데이터베이스에 저장된 텍스트와 배식 시간을 수정할 수 있음.
+  - 버블 정렬을 이용하여 시간 순으로 정렬.
+  - 현재 시간과 다음 배식 시간을 비교하여 남은 시간을 출력해 사용자의 편의성을 더함.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/time01.png"/>
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/time02.png"/>
+
+3. 음악 송출
+  - 음악을 선택하여 스피커에 송출.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/music.png"/>
+
+
+4. 카메라 CCTV
+  - 서버와의 연동을 통해 전송받은 카메라의 화면을 출력.
+  - 애플리케이션을 이용하여 카메라 속 모습을 실시간으로 확인할 수 있음.
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/camera.png"/>
+
+
+
+# 기대효과
+
+ - 반려묘 외에도 강아지나 페럿 등 여러 반려동물도 이용 가능.
+ - 집에 반려동물이 혼자 있는 시간이 많아 걱정되는 사람들의 불안감을 감소시킴.
+ - 실시간으로 일어나는 위급상황에 대처 가능.
 
 
 # 자체 평가
