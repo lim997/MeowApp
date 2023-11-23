@@ -24,7 +24,7 @@
  - 2019.03 ~ 2019.11
  - 매주 월요일 13시 회의
 
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/calendar.png"/>
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/calendar.png"/>
 
 
 
@@ -41,19 +41,19 @@
 
 # 개발 환경
 
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/development_environment.png"/>
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/development_environment.png"/>
 
 
 
 # 스토리보드
 
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/storyboard.png"/>
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/storyboard.png"/>
 
 
 
 # 시스템 전체 구성도
 
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/overall_flow.png"/>
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/overall_flow.png"/>
 
 - 해당 시스템은 서버를 통해 밥그릇에 부착된 라즈베리 파이와 애플리케이션이 데이터를 주고 받음.
 - 밥그릇에는 하드웨어를 제어해주는 라즈베리 파이, 사진을 찍는 카메라, 카메라를 회전시키기 위한 회전 모터, 배식을 담당하는 레버를 회전시키기 위한 회전 모터, 음악을 송출해주는 스피커가 부착되어 있음.
@@ -66,11 +66,12 @@
 
 # 애플리케이션 흐름도
 
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/flow_chart.png"/>
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/flow_chart.png"/>
 
 
 
 # 프로젝트 기능
+
 1. S/W
   - 클라우드 서버를 이용한 데이터 처리: 카메라 모듈에서 받아온 사진과 앱에서 받아온 시간 데이터 등을 클라우드 서버에서 저장하고 분석.
   - 실시간 영상 스트리밍: 실시간 스트리밍을 이용하여 애플리케이션에서 반려동물의 모습을 확인.
@@ -87,43 +88,7 @@
 
 
 
-# 화면 구현
-1. 메인 화면
-  - 파일의 액세스 권한이 허용되면 사용자의 갤러리에서 사진을 받아올 수 있으며, 이미지 파일의 경로를 담을 데이터베이스가 생성됨.
-  - SQLite 이용. 애플리케이션을 재실행하더라도 선택한 이미지가 메인에 나타남.
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/gallery01.png"/>
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/gallery02.png"/>
-  
-2. 배식 시간 설정
-  - 리스트를 이용. 데이터베이스에 저장된 텍스트와 배식 시간을 수정할 수 있음.
-  - 버블 정렬을 이용하여 시간 순으로 정렬.
-  - 현재 시간과 다음 배식 시간을 비교하여 남은 시간을 출력해 사용자의 편의성을 더함.
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/time01.png"/>
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/time02.png"/>
-  
-3. 음악 송출
-  - 음악을 선택하여 스피커에 송출.
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/music.png"/>
-
-
-4. 카메라 CCTV
-  - 서버와의 연동을 통해 전송받은 카메라의 화면을 출력.
-  - 애플리케이션을 이용하여 카메라 속 모습을 실시간으로 확인할 수 있음.
-
-<img width="80%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/camera.png"/>
-
-
-
-# 기대효과
- - 반려묘 외에도 강아지나 페럿 등 여러 반려동물도 이용 가능.
- - 집에 반려동물이 혼자 있는 시간이 많아 걱정되는 사람들의 불안감을 감소시킴.
- - 실시간으로 일어나는 위급상황에 대처 가.
-
+# 관련료
 
 
 # 자체 평가
@@ -142,3 +107,8 @@
 # 시연 영상
 
 [시연영상](https://www.youtube.com/watch?v=qw1U5Td58qY)
+
+
+# 참고서
+
+- Do it! 안드로이드 앱 프로그래밍, 이지스퍼블리싱, 2019
