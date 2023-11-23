@@ -71,6 +71,13 @@
 
 
 
+
+# 애플리케이션 화면
+
+<img width="60%" src="https://github.com/lim997/MeowApp/blob/main/meow_images/application.png"/>
+
+
+
 # 프로젝트 기능
 
 1. S/W
